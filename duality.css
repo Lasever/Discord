@@ -76,9 +76,9 @@
 #app-mount .container-2lgZY8::before { /*Background 2*/
     content: "";
     background: var(--background-image);
-    background-position: center;
+    background-position: top;
     background-size: cover;
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     right: 0;
