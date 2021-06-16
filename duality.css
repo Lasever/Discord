@@ -52,9 +52,9 @@
 #app-mount::before { /*Background 1*/
     content: "";
     background: var(--app-background);
-    background-position: top;
+    background-position: center;
     background-size: cover;
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -63,7 +63,7 @@
 }
 #app-mount::after { /*Background 1*/
     content: "";
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
     top: 0;
